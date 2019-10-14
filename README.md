@@ -1,4 +1,6 @@
 # semi-discrete optimal transport for Curvling
+______________________
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3484184.svg)](https://doi.org/10.5281/zenodo.3484184)
 
 This codes are the implementation of the following [paper](https://arxiv.org/abs/1804.08356). It allows to compute the exact *L²*  optimal transport between a continuous measure (with density) and measure carried by a set of Dirac masses. This toolbox allows the calculation in **2D** of the optimal Transport distance. Moreover it includes Curvling constraints, that is imposing to the Diracs masses to be taken along a curve with a bounded speed and acceleration. We provide hands-on tutorials on the [wiki](https://github.com/lebrat/semiDiscreteCurvling/wiki).
 

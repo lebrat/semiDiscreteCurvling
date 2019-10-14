@@ -28,6 +28,6 @@ except AttributeError:
 rt_module = Extension('_rt', libraries=['CGAL','gmp','gomp'],
 								extra_compile_args = ["-g","-ffast-math","-fopenmp","-std=c++11","-fopenmp"],
 							    sources=['integrate.cxx','integrateQ1.cxx','integrateQ0.cxx','edges.cxx','laguerre.cxx','rt2.cxx','rt.i'],
-								include_dirs = [numpy_include],swig_opts=['-c++'])
+								include_dirs = [numpy_include],swig_opts=['-c++','-py3'])
 
 setup(name='rt', ext_modules=[rt_module], py_modules=["rt"])
